@@ -1,0 +1,17 @@
+package test;
+ 
+
+public class EGHomePageTest {
+
+	public static void main(String[] args) {
+		
+		header();
+
+	}
+	
+	public static void header()
+	{
+		
+	}
+
+}

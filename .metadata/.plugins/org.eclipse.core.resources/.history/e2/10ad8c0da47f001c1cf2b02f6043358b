@@ -1,0 +1,42 @@
+package test;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+import pageObject.HomePage;
+
+public class EGHomePageTest {
+	
+	static WebDriver driver =null;
+	
+	@BeforeTest
+	public void setupTest() {
+		
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		
+	}
+	
+	@Test
+	public static void header()
+	{
+		driver.get("https://www.kerastase.com.eg/en/");
+		//Assert.assertTrue(pageObject.HomePage.headerLogo(driver).isDisplayed());
+		
+	}
+	
+	@AfterTest
+	public void tearDownTest()
+	{
+		driver.close();
+		driver.quit();
+		
+	}
+	
+
+}

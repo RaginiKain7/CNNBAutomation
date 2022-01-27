@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;GCCKerastase_AutomationFramework&apos; to &apos;EG_Kerastase_AutomationFramework&apos;&#x0D;&#x0A;- Original element: &apos;GCCKerastase_AutomationFramework&apos;&#x0D;&#x0A;- Renamed element: &apos;GCCKerastase_AutomationFramework&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;GCCKerastase_AutomationFramework&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=GCCKerastase_AutomationFramework" name="EG_Kerastase_AutomationFramework" references="true" stamp="1642604575898" version="1.0"/>
+</session>
