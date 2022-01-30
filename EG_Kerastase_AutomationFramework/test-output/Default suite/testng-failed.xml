@@ -5,9 +5,10 @@
     <classes>
       <class name="test.EGHomePageTest">
         <methods>
-          <include name="header"/>
-          <include name="tearDownTest"/>
-          <include name="setupTest"/>
+          <include name="setup"/>
+          <include name="kerEGTitleTest"/>
+          <include name="kerEGLogoTest"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- test.EGHomePageTest -->
     </classes>
